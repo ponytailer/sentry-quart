@@ -24,7 +24,7 @@ sentry_sdk.init(traces_sample_rate=1)
 ```
 
 
-## Graph
+## Photo
 
 before:
 
