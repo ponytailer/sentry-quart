@@ -13,6 +13,9 @@ pip install sentry-quart
 ## How to use
 
 ```
+from quart import Quart
+from sentry_quart import QuartMiddleware
+
 app = Quart(__name__)
 host = "https://xxxx.com/v1"
 app.asgi_app = QuartMiddleware(app, host)._run_asgi3
